@@ -22,7 +22,7 @@ const Register = () => {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow rounded">
-      <h2 className="text-2xl mb-4 font-bold text-center">Register</h2>
+      <h2 className="text-2xl mb-4 font-bold text-center  text-black">Register</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         {error && <p className="text-red-500">{error}</p>}
         <input
