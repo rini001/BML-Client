@@ -47,7 +47,7 @@ const MyBookCard = ({ book}: { book: MyBook; refresh: () => void }) => {
         <select
           value={status}
           onChange={(e) => handleStatusChange(e.target.value)}
-          className="w-full border rounded p-1"
+          className="w-full border rounded p-1 bg-black text-white "
         >
           <option  value="Want to Read">Want to Read</option>
           <option value="Currently Reading">Currently Reading</option>
