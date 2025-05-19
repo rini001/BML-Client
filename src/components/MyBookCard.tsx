@@ -42,14 +42,14 @@ const MyBookCard = ({ book}: { book: MyBook; refresh: () => void }) => {
       <h3 className="text-lg font-semibold">{book.bookId.title}</h3>
       <p className="text-sm text-gray-700 mb-2">by {book.bookId.author}</p>
 
-      <div className="mb-2">
+      <div className="mb-2 bg-black">
         <label className="block mb-1 font-medium">Reading Status:</label>
         <select
           value={status}
           onChange={(e) => handleStatusChange(e.target.value)}
           className="w-full border rounded p-1"
         >
-          <option value="Want to Read">Want to Read</option>
+          <option  value="Want to Read">Want to Read</option>
           <option value="Currently Reading">Currently Reading</option>
           <option value="Read">Read</option>
         </select>

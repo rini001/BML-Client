@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://bml-server-kv1a.onrender.com', // or your backend URL
+  baseURL: import.meta.env.VITE_BACKEND_BASE_URL , // or your backend URL
   withCredentials: true,
 });
-
+console.log(1,import.meta.env.BACKEND_BASE_URL)
 export default instance;

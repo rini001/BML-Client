@@ -21,7 +21,7 @@ const Home = () => {
       .catch(() => alert('Failed to load books'))
       .finally(() => setLoading(false));
   }, []);
-console.log(books);
+
   return (
     <div className="p-6">
       <h2 className="text-2xl font-bold mb-4">📚 All Books</h2>
