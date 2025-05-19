@@ -31,7 +31,7 @@ A full-stack **Books Library Management App** built using the **MERN stack with 
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
 - **API**: RESTful  
-- **Deployment**: Vercel (Frontend) & (your backend deployment link if available)
+- **Deployment**: Vercel (Frontend) & Render (Backend)
 
 ---
 
