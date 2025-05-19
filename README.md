@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# 📚 Books Library App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Books Library Management App** built using the **MERN stack with TypeScript**. Users can browse a curated collection of books, register/login to their account, and save their favorite titles. The platform allows readers to organize and track books they love in a simple and elegant interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://bml-client.vercel.app/](https://bml-client.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📖 **Explore All Books**  
+  Discover a collection of books with their details like title, author, and genre.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 🧑‍💼 **User Authentication**  
+  Users can **register** and **log in** to manage their own saved books.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ❤️ **Save Favorite Books**  
+  Logged-in users can bookmark or save books to their personal list.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- 🧾 **Reading Status Tracking** *(optional)*  
+  Users can track which books they're currently reading, have finished, or want to read.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- ⚡ **Fast & Responsive UI**  
+  Built with **Tailwind CSS** and **React**, ensuring a smooth user experience across all devices.
+
+---
+
+## 🔐 Tech Stack
+
+- **Frontend**: React + TypeScript, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **API**: RESTful  
+- **Deployment**: Vercel (Frontend) & (your backend deployment link if available)
+
+---
+
+
