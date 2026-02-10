@@ -5,4 +5,4 @@ const instance = axios.create({
   withCredentials: true,
 });
 console.log(1,import.meta.env.BACKEND_BASE_URL)
-export default instance;
+export default instance
